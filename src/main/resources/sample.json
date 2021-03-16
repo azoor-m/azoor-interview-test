@@ -1,0 +1,577 @@
+{
+	"project_id": "project1",
+	"issues": [
+		{
+			"issue_id": "issue1",
+			"type": "bug",
+			"current_state": "deploy",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-01 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-03 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-21 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue2",
+			"type": "bug",
+			"current_state": "deploy",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		},
+		{
+			"issue_id": "issue3",
+			"type": "bug",
+			"current_state": "open",
+			"changelogs": [
+				{
+					"changed_on": "2021-01-08 12:00pm UTC",
+					"from_state": "open",
+					"to_state": "in_progress"
+				},
+				{
+					"changed_on": "2021-01-09 12:00pm UTC",
+					"from_state": "in_progress",
+					"to_state": "testing"
+				},
+				{
+					"changed_on": "2021-01-25 12:00pm UTC",
+					"from_state": "testing",
+					"to_state": "deploy"
+				}
+			]
+		}
+	]
+}
