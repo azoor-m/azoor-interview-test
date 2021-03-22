@@ -8,7 +8,8 @@ package com.azoor.at.home.test.HomeTest.service.impl;
 
 import java.io.File;
 import java.io.IOException;
-import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
 import java.time.temporal.ChronoField;
 import java.util.ArrayList;
 import java.util.List;
@@ -55,21 +56,18 @@ public class ThirdPartyIssueConsumerServiceImpl implements ThirdPartyIssueConsum
 
 	}
 
-	private int processDate(String dateStr, String key) {
+	protected int processDate(String dateStr, String key) {
 		int returnValue = 0;
-		String date = dateStr.split(" ")[0];
-		String time = dateStr.split(" ")[1].replace("pm", "");
-		LocalDateTime dateObj= LocalDateTime.of(Integer.parseInt(date.split("-")[0]), Integer.parseInt(date.split("-")[1]), Integer.parseInt(date.split("-")[2]), 
-				Integer.parseInt(time.split(":")[0]), Integer.parseInt(time.split(":")[1]));
-		System.out.println(dateObj.get(ChronoField.ALIGNED_WEEK_OF_YEAR));
-		
+
+		DateTimeFormatter formatter = new DateTimeFormatterBuilder().parseCaseInsensitive().appendPattern("yyyy-MM-dd HH:mma z").toFormatter();
+
 		switch (key) {
 		case "WEEK":
-			returnValue = dateObj.get(ChronoField.ALIGNED_WEEK_OF_YEAR);
+			returnValue = formatter.parse(dateStr).get(ChronoField.ALIGNED_WEEK_OF_YEAR);
 			break;
 
 		default:
-			returnValue = dateObj.get(ChronoField.YEAR);
+			returnValue = formatter.parse(dateStr).get(ChronoField.YEAR);
 			break;
 		}
 		return returnValue;
